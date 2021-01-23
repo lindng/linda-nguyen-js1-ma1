@@ -91,9 +91,8 @@ function createCats (cats) {
     
 }
 
-createCats (cats);
-
 const newHTML = createCats(cats);
+console.log(newHTML);
 
 const catsContainer = document.querySelector(".cat-container");
 catsContainer.innerHTML = newHTML;
